@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+
+# Type checking / linting
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# IDEs / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime state
+*.pid
+*.sock
+run/
+tmp/
+.temp/
+
+# vllmd local state
+.vllmd/
+vllmd-state/
+cluster-state.json
+
+# Model / ML caches
+.cache/
+huggingface/
+transformers_cache/
+torch_cache/
+
+# Model files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+
+# Large datasets / artifacts
+data/
+datasets/
+artifacts/
+checkpoints/
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# CUDA / profiling
+nsys-rep/
+*.nsys-rep
+*.qdrep
+*.sqlite
+
+# Local certificates / keys
+*.pem
+*.key
+*.crt
+
+# Misc
+*.bak
+*.tmp
